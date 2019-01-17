@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="MyGameServer"
+                   namespace="MyGameServer.Model">
+  <!--assembly:模型所在的程序集-->
+  <!--namespace:表示SaveGame这个类在那个命名空间下的那个文件内-->
+  <class name="SaveGame" table="savegame">
+    <!--表示SaveGame这个类跟数据库里面的SaveGame表对应-->
+    <id name="Id" column="idSaveGame" type="Int32">
+      <!--id name配置SaveGame类里面主键的映射,column表示跟数据库中哪个主键对应,type类型-->
+      <generator class="native"> </generator>
+      <!--generator表示一个生成器，class指定generator的类型，native表示使用数据库自带的生成器-->
+    </id>
+    <property name="SaveGameName" column="SaveGameName" type="String"> </property>
+    <property name="UserName" column="UserName" type="String"> </property>
+    <property name="Health" column="Health" type="Int32"></property>
+    <property name="Attack" column="Attack" type="Int32"></property>
+    <property name="Armor" column="Armor" type="Int32"></property>
+    <property name="Charge" column="Charge" type="Int32"></property>
+    <property name="MaxHealth" column="MaxHealth" type="Int32"></property>
+    <property name="FullCharge" column="FullCharge" type="Int32"></property>
+    <property name="CardNum" column="CardNum" type="Int32"></property>
+    <property name="TransitionA" column="TransitionA" type="Boolean"></property>
+    <property name="TransitionB" column="TransitionB" type="Boolean"></property>
+  </class>
+</hibernate-mapping>

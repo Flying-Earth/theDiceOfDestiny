@@ -1,0 +1,9 @@
+F:\workspace\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.dll
+F:\workspace\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.pdb
+F:\workspace\VS\Sever\MyGameServer\MyGameServer\obj\Debug\MyGameServer.csprojAssemblyReference.cache
+F:\workspace\VS\Sever\MyGameServer\MyGameServer\obj\Debug\MyGameServer.csproj.CoreCompileInputs.cache
+F:\workspace\VS\Sever\MyGameServer\MyGameServer\obj\Debug\MyGameServer.csproj.CopyComplete
+F:\workspace\VS\Sever\MyGameServer\MyGameServer\obj\Debug\MyGameServer.dll
+F:\workspace\VS\Sever\MyGameServer\MyGameServer\obj\Debug\MyGameServer.pdb
+F:\workspace\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\log4net.config
+F:\workspace\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml
